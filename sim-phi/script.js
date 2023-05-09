@@ -875,7 +875,7 @@ window.addEventListener('load', async function() {
 	msgHandler.sendMessage('初始化...');
 	if (await checkSupport()) return;
 	const res0 = {};
-	const raw = await fetch(atob('aHR0cHM6Ly9sY2h6aC5uZXQvZGF0YS9wYWNrLmpzb24/Y2FsbGJhY2s9Zg==')).then(i => i.json());
+	const raw = await fetch(atob('L3BhY2suanNvbg==')).then(i => i.json());
 	for (const j in raw.image || {}) res0[j] = raw.image[j];
 	for (const j in raw.audio || {}) res0[j] = raw.audio[j];
 	//加载资源
