@@ -885,7 +885,7 @@ window.addEventListener('load', async function() {
 	  .catch(error => {
 		// handle the error
 	  });
-	const raw = await fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3BoaXNpbXUvcGhpc2ltdS5naXRodWIuaW8vbWFpbi9zaW0tcGhpL3BhY2suanNvbg=='), {mode: 'no-cors'}).then(i => i.json());
+	const raw = await fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3BoaXNpbXUvcGhpc2ltdS5naXRodWIuaW8vbWFpbi9zaW0tcGhpL3BhY2suanNvbg==')).then(i => i.json());
 	for (const j in raw.image || {}) res0[j] = raw.image[j];
 	for (const j in raw.audio || {}) res0[j] = raw.audio[j];
 	//加载资源
